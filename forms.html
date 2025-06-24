@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORMS</title>
+</head>
+<body>
+    <center><h1>TRS BASSPASS APPLICATION FORM</h1></center>
+       <fieldset>
+     <center><legend><b><h3>APPLICATION FORM</h3></b></legend></center>
+     <form action="">
+        <table>
+            <tr>
+                <td><label for="firstname"><b>NAME OF STUDENT:</b></label>
+                    <input type="text" id="first name" name="firstname" required maxlength="20" placeholder="enter your name:">
+                </td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><label for="secondname"><b>NAME OF PARENT:</b></label>
+                    <input type="text" id="secon name" name="secondname" required max="20" placeholder="enter your gaurdian name:"></td>
+            </tr>
+            <tr>
+                <td><label for="phonenum"><b>PHONE-NO:</b></label>
+                    <input type="text" id="phonenum" name="phonenum" placeholder="enter your 10 digit mobile number" required minlength="1" maxlength="10">
+                </td>
+                <td><label for="parentphonenum"><b> PARENT PHONE-NO:</b></label>
+                    <input type="text" id="parentphonenum" name="parentphonenum" placeholder="enter your  parent 10 digit mobile number" required minlength="1" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>Email</b></label>
+                    <input type="email" required placeholder="enter your email" name="email">
+                </td>
+                <td><label for="password"><b>PASSWORD</b></label>
+                <input type="password" required placeholder="enter your password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="register"><b>REGISTER NUMBER:</b></label>
+                <input type="text" required name="register" placeholder="enter your register number">
+                </td>
+                <td>
+                    <label for="clz name"><b>COLLEGE NAME:</b></label>
+                <input type="text" required name="clz name" placeholder="enter your college name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="branch"><b>BRANCH:</b></label>
+                <input type="text" required name="branch" placeholder="enter your branch"></td>
+                <td><label for="gender"><b>GENDER:</b></label>
+                    <label for="gender"> MALE</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="gender"> FEMALE</label>
+                <input type="radio" id="female" name="gender" value="female">
+                </td>
+            </tr>
+        </table>
+        <label for="photo"><b>CHOOSE A PICTURE:</b></label>
+            <input type="file" id="photo" multiple>
+        <hr>
+        <label for="Fulladdress"><b>FULL ADDRESS:</b></label>
+        <textarea name="Fulladdress" id="Fulladdress"></textarea>
+        <label for="place">CHOOSE LOCATION:</label>
+  <select id="place" name="place">
+    <option value="kpbh">KPBH</option>
+    <option value="kukatpally">KUKATPALLY</option>
+    <option value="lb nagar">LB NAGAR</option>
+    <option value="erragadda">ERRAGADDA</option>
+    <option value="patan cheruvu" selected>PATAN CHERUVU</option>
+    <option value="balanagar">BALA NAGAR</option>
+  </select>
+<center><img src="./inner folder/imgs/icons8-captcha-50.png" alt="captcha"></center>
+<br>
+<center><input type="submit"></center>
+  
+     </form>
+       </fieldset>
+</body>
+</html>
